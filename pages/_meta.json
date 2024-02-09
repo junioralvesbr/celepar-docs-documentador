@@ -1,0 +1,15 @@
+{
+  "index": "Introduction",
+  "another": "Outra Pagina",
+  "advanced": "Avançado (A Folder)",
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Documentador ↗",
+    "type": "page",
+    "href": "https://www.documentador.pr.gov.br/documentador/",
+    "newWindow": true
+  }
+}

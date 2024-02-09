@@ -1,13 +1,14 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const config: DocsThemeConfig = {
   logo: <span>
     <Image src="/logo-celepar.png" alt='Logo da Celepar' width={150} height={150} />
   </span>,
   project: {
-    link: 'https://github.com/junioralvesbr/celepar-docs-documentador/',
+    link: 'https://github.com/junioralvesbr/celepar-docs-documentador/blob/main',
   },
   chat: {
     link: 'https://chat.paas.pr.gov.br/channel/documentador',
@@ -25,6 +26,17 @@ const config: DocsThemeConfig = {
     <meta name="description" content="Documentador: Documentação do Documentador" />
     <meta name="og:title" content="Documentador: Documentação do Documentador" />
   </>,
+  toc: {
+    title: "Nesta Pagina",
+    float: true,
+    backToTop: true,
+  },
+  editLink: {
+    text: 'Editar essa pagina'
+  },
+  feedback: {
+    content: null,
+  },
   footer: {
     text: `MIT ${new Date().getFullYear()} © Celepar.`,
   },

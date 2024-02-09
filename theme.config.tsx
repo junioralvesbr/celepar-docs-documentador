@@ -28,6 +28,15 @@ const config: DocsThemeConfig = {
   footer: {
     text: `MIT ${new Date().getFullYear()} © Celepar.`,
   },
+  themeSwitch: {
+    useOptions() {
+      return {
+        light: 'Claro',
+        dark: 'Escuro',
+        system: 'Sistema'
+      }
+    }
+  }
 }
 
 export default config

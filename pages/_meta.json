@@ -1,7 +1,8 @@
 {
-  "index": "Introduction",
+  "index": "Introdução",
+  "concepts": "Conceitos Fundamentais",
   "another": "Outra Pagina",
-  "advanced": "Avançado (A Folder)",
+  "basicFunction": "Funções Basicas",
   "about": {
     "title": "About",
     "type": "page"

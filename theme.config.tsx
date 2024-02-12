@@ -26,19 +26,22 @@ const config: DocsThemeConfig = {
     <meta name="description" content="Documentador: Documentação do Documentador" />
     <meta name="og:title" content="Documentador: Documentação do Documentador" />
   </>,
+  sidebar: {
+    autoCollapse: true,
+    toggleButton: true
+  },
   toc: {
-    title: "Nesta Pagina",
-    float: true,
+    title: "Esta Pagina",
     backToTop: true,
   },
   editLink: {
-    text: 'Editar essa pagina'
+    text: 'Editar essa pagina',
   },
   feedback: {
     content: null,
   },
   footer: {
-    text: `MIT ${new Date().getFullYear()} © Celepar.`,
+    text: `Celepar ${new Date().getFullYear()} © Companhia de Tecnologia da Informação e Comunicação do Paraná.`,
   },
   themeSwitch: {
     useOptions() {

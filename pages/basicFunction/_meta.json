@@ -1,4 +1,6 @@
 {
-  "documents": "Documentos",
+  "accessSystem": "Acesso ao sistema",
+  "interface": "Interface do Sistema",
+  "documents": "Trabalhando com Documentos",
   "trash": "Lixeira"
 }

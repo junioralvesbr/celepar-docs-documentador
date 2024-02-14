@@ -1,7 +1,6 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 import Image from 'next/image'
-import Link from 'next/link'
 
 const config: DocsThemeConfig = {
   logo: <span>
@@ -22,6 +21,8 @@ const config: DocsThemeConfig = {
     placeholder: "Pesquisar no documento"
   },
   head: <>
+    <title>Docs | Documentador</title>
+    <link href='/favicon.ico' type='image/x-icon' rel='shortcut ison' />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Documentador: Documentação do Documentador" />
     <meta name="og:title" content="Documentador: Documentação do Documentador" />
